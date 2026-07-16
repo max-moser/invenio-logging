@@ -1,10 +1,17 @@
 ..
     SPDX-FileCopyrightText: 2015-2024 CERN.
     SPDX-FileCopyrightText: 2024-2026 Graz University of Technology.
+    SPDX-FileCopyrightText: 2026 TU Wien.
     SPDX-License-Identifier: MIT
 
 Changes
 =======
+
+Version v4.3.0 (released 2026-07-16)
+
+- chore(setup): migrate from setuptools to hatchling
+- fix(console): remove default_handler if console logging is disabled
+- logging: re-use flask default StreamHandler instead of adding new ones
 
 Version v4.2.0 (released 2026-06-12)
 
